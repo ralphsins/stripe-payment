@@ -1,0 +1,227 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #eeeeee;
+  }
+  
+  .wrapper form {
+    background-color: white;
+    border-radius: 10px;
+    max-height: 420px;
+    width: 400px;
+    padding: 20px 30px;
+  }
+  
+  .wrapper form .title {
+    width: 100%;
+    text-align: center;
+    color: #383838;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper form .row {
+    margin: 15px 0;
+    width: 100%;
+  }
+  
+  .wrapper form .row label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #808080;
+  }
+  
+  .wrapper form input {
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  
+  .wrapper form input:focus {
+    outline: none;
+    box-shadow: 5px 5px 10px #eeeeee;
+  }
+  
+  .wrapper form .btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .wrapper form button {
+    cursor: pointer;
+    background-color: #3166ec;
+    width: 150px;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  /* styles.css */
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #eeeeee;
+    height: 100vh;
+  }
+  
+  .wrapper .innerWrapper {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .wrapper .innerWrapper .title {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    color: #383838;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .innerWrapper label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  
+  .wrapper .innerWrapper .row {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .wrapper .innerWrapper .row input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .wrapper .innerWrapper .row input:focus {
+    outline: none;
+  }
+  
+  .wrapper .innerWrapper .rowPaymentInput {
+    border: 1px solid #cccccc;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .rowSelect {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .rowSelect input {
+    width: 100%;
+    position: relative;
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+    height: calc(100% - 21px);
+    border-radius: 5px;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .rowSelect input:focus {
+    outline: none;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .rowSelect > div {
+    width: 50%;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .rowSelect > div:first-child {
+    margin-right: 10px;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+  
+  .wrapper .innerWrapper .addressWrapper .btnContainer button {
+    cursor: pointer;
+    background-color: #3166ec;
+    width: 150px;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .wrapper {
+    padding: 30px;
+  }
+  
+  .wrapper h3 {
+    margin-bottom: 40px;
+  }
+  
+  .wrapper .card {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 400px;
+  }
+  
+  .wrapper .card:hover {
+    background-color: #eee;
+  }
+  
+  .wrapper .card .cardLogo {
+    width: 40px;
+    margin-right: 20px;
+  }
+  
+  .wrapper .card .cardLogo img {
+    width: 100%;
+  }
+  
+  .wrapper .card .details p:first-child {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  
+  .wrapper .card .details p:nth-child(2) {
+    font-size: 14px;
+    color: #595959;
+  }
+  
+  .wrapper .card .expire {
+    margin-left: auto;
+    font-size: 14px;
+  }
+  
+  .wrapper .card p {
+    margin-right: 5px;
+  }
+  
+  .wrapper .card p:last-child {
+    margin-left: auto;
+  }
